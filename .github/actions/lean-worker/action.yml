@@ -22,7 +22,7 @@ runs:
   steps:
     - name: Setup Lean and build dependencies
       if: inputs.build == 'true'
-      uses: leanprover/lean-action@v1
+      uses: meta-introspector/lean-action@v1
       with:
         build: false
 
