@@ -16,7 +16,6 @@ inputs:
     description: Directory to scan for Lean sources.
     required: false
     default: "src"
-
 runs:
   using: composite
   steps:
