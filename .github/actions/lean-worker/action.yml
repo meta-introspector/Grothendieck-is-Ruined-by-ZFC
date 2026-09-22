@@ -21,7 +21,7 @@ runs:
   steps:
     - name: Setup Lean and build dependencies
       if: inputs.build == 'true'
-      uses: meta-introspector/lean-action@v1
+      uses: meta-introspector/lean-action@main
       with:
         build: false
 
